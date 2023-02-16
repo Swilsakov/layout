@@ -12,6 +12,10 @@
 
 .page__advantages {}
 
+.page__practice {
+
+}
+
 /* ---------HEADER-BLOCK---------------------------------- */
 
 .header_block {
@@ -46,4 +50,6 @@
   font-weight: 500;
   line-height: 142%;
   letter-spacing: 0.2px;
+  max-width: 470px;
+  margin: 0 auto;
 }
