@@ -1,0 +1,149 @@
+.whoweare {
+  background: #fff;
+  padding: 100px 0 130px 0;
+}
+
+.whoweare__container {}
+
+.whoweare__header {
+  padding: 0 0 100px 0;
+}
+
+.whoweare__body {
+  display: flex;
+  align-items: flex-start;
+}
+
+.whoweare__video {
+  flex: 0 0 57%;
+  position: relative;
+  padding: 0 0 42.25% 0;
+}
+
+.whoweare__video iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.whoweare__content {
+  flex: 1 1 auto;
+  padding: 0 0 0 121px;
+}
+
+.whoweare__content_block {
+  margin: 20px 0;
+}
+
+.whoweare__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 142.5%;
+  letter-spacing: 0.2px;
+}
+
+.whoweare__title:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.whoweare__text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 142.86%;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.whoweare__items {
+  padding: 30px 0 0 0;
+}
+
+.whoweare__item {}
+
+.item_whoweare {
+  display: flex;
+}
+
+.item_whoweare:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.item_whoweare__icon {
+  flex: 0 0 32px;
+}
+
+.item_whoweare__body {
+  flex: 1 1 auto;
+  padding: 0 0 0 20px;
+}
+
+.item_whoweare__title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.1px;
+  color: #252B42;
+}
+
+.item_whoweare__title:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.item_whoweare__text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.2px;
+  color: #737373;
+
+  white-space: nowrap;
+  overflow: hidden;
+  width: 260px;
+  text-overflow: ellipsis;
+}
+
+
+@media (max-width: 1080px) {
+  .whoweare__content {
+    padding: 0 0 0 50px;
+  }
+}
+@media (max-width: 950px) {
+  .whoweare {
+    padding: 50px 0 50px 0;
+  }
+  .whoweare__header {
+    padding: 0 0 30px 0;
+  }
+  .whoweare__body {
+    flex-direction: column-reverse;
+    align-items: stretch;
+  }
+  .whoweare__content {
+    padding: 0 0 0 0;
+  }
+  .whoweare__video {
+    padding-bottom: 56.25%;
+  }
+  .whoweare__video:not(:last-child) {
+    margin: 50px 0 0 0;
+  }
+  .whoweare__title {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .whoweare {
+    padding: 20px 0 50px 0;
+  }
+  .whoweare__video:not(:last-child) {
+    margin: 30px 0 0 0;
+  }
+  .whoweare__content_block {
+    margin: 10px 0;
+  }
+}
