@@ -1,0 +1,119 @@
+.getintouch {
+  padding: 80px 0 135px 0;
+  background: #F3F3F3;
+}
+
+.getintouch__container {}
+
+.getintouch__header {
+  padding: 0 0 80px 0;
+}
+
+.getintouch__items {
+  margin: 0 -15px;
+}
+
+.getintouch__item {
+  flex: 0 1 33.333%;
+}
+
+.item_getintouch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  padding: 50px 15px;
+}
+.item_getintouch > *:not(:last-child) {
+  margin: 0 0 15px 0;
+}
+
+.item_getintouch_active {
+  padding: 80px 15px;
+  background: #252B42;
+  color: #fff;
+}
+
+.item_getintouch_active .item_getintouch__button {
+  border: 1px solid #fff;
+  color: #F3F3F3;
+}
+
+.item_getintouch_active .item_getintouch__button:hover {
+  background: #FF7B47;
+  border: 1px solid #FF7B47;
+}
+
+.item_getintouch__icon {}
+
+.item_getintouch__emails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item_getintouch__email {
+  color: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 171.428%;
+  letter-spacing: 0.2px;
+}
+.item_getintouch__email:hover {
+  text-decoration: underline;
+}
+
+.item_getintouch__label {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.1px;
+  color: #252B42;
+}
+
+.item_getintouch__button {
+  min-height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #FF7B47;
+  border-radius: 5px;
+  padding: 10px 20px;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 171.428%;
+  letter-spacing: 0.2px;
+  color: #FF7B47;
+  transition: all 0.3s ease 0s;
+}
+.item_getintouch__button:hover {
+  background-color: #FF7B47;
+  color: #fff;
+}
+
+@media (min-width: 992px) {
+  .getintouch__items {
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+}
+@media (max-width: 992px) {
+  .getintouch {
+    padding: 50px 0;
+  }
+  .getintouch__header {
+    padding: 0 0 50px 0;
+  }
+  .item_getintouch_active {
+    padding: 50px 15px;
+  }
+}
+@media (max-width: 767px) {
+  .getintouch__header {
+    padding: 0 0 30px 0;
+  }
+}
