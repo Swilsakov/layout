@@ -67,7 +67,9 @@
   line-height: 28px;
   letter-spacing: 0.2px;
   margin: 5px 0;
+  transition: all 0.3s ease 0s;
 }
+
 
 @media (max-width: 479px) {
   .main_block__button {
@@ -80,13 +82,22 @@
 } */
 
 .first_btn {
-  color: #FFFFFF;
   background: #FF7B47;
+  color: #FFFFFF;
+}
+
+.first_btn:hover {
+  background: #FFFFFF;
+  color: #FF7B47;
 }
 
 .second_btn {
   border: 1px solid #0D5C63;
   color: #0D5C63;
+}
+.second_btn:hover {
+  background-color: #0D5C63;
+  color: #fff;
 }
 
 .main_block__image {

@@ -107,4 +107,9 @@
   font-size: 14px;
   line-height: 200%;
   letter-spacing: 0.2px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+.subscribe__button:hover {
+  background-color: #f38d65;
 }

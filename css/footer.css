@@ -1,0 +1,148 @@
+.footer {}
+
+.footer__top {
+  background: #17213C;
+  padding: 30px 0;
+}
+
+.footer__main {}
+
+.footer__row {
+  margin: 0 -15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer__column {
+  padding: 20px 15px;
+  flex: 0 1 16.6667%;
+}
+
+.footer__column:last-child {
+  flex: 0 1 33.334%;
+}
+
+@media (max-width: 992px) {
+  .footer__column {
+    flex: 0 1 50%;
+  }
+
+  .footer__column:last-child {
+    flex: 1 1 100%;
+  }
+}
+
+.footer__label {
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.1px;
+  padding: 0 0 20px;
+}
+
+.footer__menu {}
+
+.menu_footer {}
+
+.menu_footer__list {}
+
+.menu_footer__item {}
+
+.menu_footer__item:not(:last-child) {
+  margin: 0 0 10px;
+}
+
+.menu_footer__link {
+  display: inline-block;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 171.4%;
+  letter-spacing: 0.2px;
+}
+
+.menu_footer__link:hover {
+  text-decoration: underline;
+}
+
+.footer__contacts {}
+
+.contacts_footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts_footer__item:hover {
+  text-decoration: underline;
+}
+
+.contacts_footer__item {
+  padding: 0 0 0 34px;
+  display: flex;
+  align-items: center;
+  min-height: 30px;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 171.4%;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+
+.contacts_footer__item:not(:last-child) {
+  margin: 0 0 12px;
+}
+
+
+.contacts_footer__item_phone {
+  background: url(../images/footer/01.svg) 0 0 no-repeat;
+}
+
+.contacts_footer__item_map {
+  background: url(../images/footer/02.svg) 0 0 no-repeat;
+}
+
+.contacts_footer__item_email {
+  background: url(../images/footer/03.svg) 0 0 no-repeat;
+}
+
+.footer__bottom {
+  padding: 25px 0;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__copy {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 171.4%;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.footer__social {}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.social__item:not(:last-child) {
+  margin: 0 20px 0 0;
+}
+
+@media (max-width: 767px) {
+  .footer__container {
+    flex-direction: column;
+  }
+
+  .footer__copy {
+    margin: 0 0 15px;
+    text-align: center;
+  }
+}

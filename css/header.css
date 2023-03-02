@@ -68,6 +68,9 @@
   line-height: calc(24 / 14 * 100%);
   color: #737373;
 }
+.menu__link:hover {
+  text-decoration: underline;
+}
 
 @media (max-width: 479px) {
   .menu__link {
